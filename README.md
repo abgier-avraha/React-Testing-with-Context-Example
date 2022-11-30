@@ -1,4 +1,4 @@
-# React Testing with Inversion of Control
+# React Testing with React Context
 
 A template which uses the following stack:
 
