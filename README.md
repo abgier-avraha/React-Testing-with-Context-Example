@@ -1,4 +1,4 @@
-# React Test with Dependency Injection Example
+# React Testing with Inversion of Control
 
 A template which uses the following stack:
 
