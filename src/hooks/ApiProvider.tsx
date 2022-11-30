@@ -1,6 +1,6 @@
-import React, { createContext, useContext } from 'react';
+import React, { useContext } from 'react';
 import { IApiService } from '../services/api-service/IApiService';
-import { ApiService } from '../services/api-service/providers/ApiService';
+import { ApiService } from '../services/api-service/implementations/ApiService';
 
 interface IProps {
   implementation: IApiService;

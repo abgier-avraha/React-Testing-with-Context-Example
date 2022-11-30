@@ -1,12 +1,12 @@
 import { IApiService, PostDTO } from '../IApiService';
 
-export class MockApiService implements IApiService {
+export class FakeApiService implements IApiService {
   async getPosts(): Promise<PostDTO[]> {
-    return MockPostsRes;
+    return FakePostsRes;
   }
 }
 
-const MockPostsRes: PostDTO[] = [
+const FakePostsRes: PostDTO[] = [
   {
     userId: 1,
     id: 1,

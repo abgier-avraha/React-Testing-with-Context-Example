@@ -1,8 +1,8 @@
 import { ApiProvider } from '../hooks/ApiProvider';
 import { IApiService } from '../services/api-service/IApiService';
-import { MockApiService } from '../services/api-service/providers/MockApiService';
+import { FakeApiService } from '../services/api-service/implementations/FakeApiService';
 
-const api = new MockApiService();
+const api = new FakeApiService();
 
 interface IProps {
   children: React.ReactNode;
