@@ -2,7 +2,9 @@
 
 Mock services in your React projects easily with React Context.
 
-## Creating your Test Provider
+## Test Provider Exampe
+
+This component wraps all of your tests and allows you to swap out services with mock implementations. In this eaxmple that is being done with the `IApiService` which is utilises a real HTTP API in the live app.
 
 ```tsx
 import { ApiProvider } from '../hooks/ApiProvider';
